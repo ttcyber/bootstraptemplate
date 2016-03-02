@@ -11,39 +11,38 @@ Vanilla #F3E5AB
 
 pre {
 font-size:14px;
-	background-color:#71B09F;
-	border-color:#ffffff;
-	border-width:5px;
+	background-color:#ffffff;
+	border-color:#000;
 	font-family: Arial, Helvetica, sans-serif;
-	color:#ffffff;
 }
 
+.navbar-inverse{background-color:#eae0c4;border-color:#203731}	
+.navbar-inverse .navbar-brand{color:#FFB612;}
+
 .btn-primary{
-	color: #fff;
-	background-color: #71B09F;
+	color: #8B4513;
+	background-color: #FFF8DC;
 	border-color: #203731;
 }
 .btn-primary:hover{
-	color:#000;
-		background-color: #71B09F;
-			border-color: #ff0000;}
+	color:#0011cc;
+		background-color: #FFF7cb;
+			border-color: #203731;}
 		
  .navbar-inverse
 	{
 	font-size:14px;
-	background-color:#71B09F;
-	border-color:#000;
-	color: #000000;
-	}
+	background-color:#eae0c4;
+	border-color:#000}
  .navbar-inverse .navbar-brand
-	{color:#000000}
+	{color:#203731}
  .navbar-inverse .navbar-brand:focus,.navbar-inverse .navbar-brand:hover
-	{color:#000000;background-color:transparent}
+	{color:#203711;background-color:transparent}
  .navbar-inverse .navbar-text
-	{ color:#ffffff}
+	{ color:#203731}
 	
 	
-.navbar-inverse .navbar-nav>li>a{color:#000000}
+	.navbar-inverse .navbar-nav>li>a{color:#9d9d9d}
  .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{color:#fff;background-color:transparent}
  .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:
  {color:#fff;background-color:#080808}
